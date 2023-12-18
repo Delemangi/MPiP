@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="add_button">Add new movie</string>
+    <string name="list_movies">Movies</string>
+    <string name="movie_details">Details for Movie</string>
+    <string name="movie_title">Title</string>
+    <string name="movie_id">Id</string>
+    <string name="movie_description">Description</string>
+    <string name="movie_director">Director</string>
+    <string name="movie_actors">Actors(separate them with , )</string>
+    <string name="add_movie">New movie</string>
+    <string name="ok">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="movie_actors_show">Actors</string>
+</resources>

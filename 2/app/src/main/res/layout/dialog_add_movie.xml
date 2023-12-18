@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/movieAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/add_movie"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/movie_title"
+        app:layout_constraintTop_toBottomOf="@+id/movieAdd"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/movieTitleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/movieTitle"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/movieDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/movie_description"
+        app:layout_constraintTop_toBottomOf="@+id/movieTitleLabel"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/movieDescriptionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/movieDescription"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/movieDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/movie_director"
+        app:layout_constraintTop_toBottomOf="@+id/movieDescriptionLabel"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/movieDirectorLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/movieDirector"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/movieActors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/movie_actors"
+        app:layout_constraintTop_toBottomOf="@+id/movieDirectorLabel"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/movieActorsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/movieActors"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
