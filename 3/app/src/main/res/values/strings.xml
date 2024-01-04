@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieSearchApp</string>
+    <string name="search">Search</string>
+    <string name="please_enter_query">Please enter a keyword to search</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="movie_id">Movie Id</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_genre">Movie Genre</string>
+    <string name="movie_year">Movie Year</string>
+    <string name="movie_released">Movie Released</string>
+    <string name="movie_writer">Movie Writer</string>
+    <string name="movie_director">Movie Director</string>
+    <string name="movie_actors">Movie Actors</string>
+    <string name="movie_plot">Movie Plot</string>
+    <string name="movie_country">Movie Country</string>
+    <string name="movie_language">Movie Language</string>
+    <string name="movie_runtime">Movie Runtime</string>
+</resources>
